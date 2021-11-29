@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap" rel="stylesheet">
+    <title>facebook.com</title>
+    <style>
+        body{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #dccfcfe6;
+            
+        }
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+        .con { display: flex;
+            flex-wrap: wrap;
+          background-color: #3b5998;
+          height: 10vh;
+          
+          width: 100vw;
+         
+      
+         }
+        #logo { 
+            display: flex;
+            flex-wrap: wrap;
+         left: 14vw;
+         position: relative;
+         height: 9vh;
+         width: 14vw;
+         
+         box-sizing: border-box;
+         }
+         .email {
+         font-size: 2vh;
+         font-family: 'Yuji ,Boku', serif;
+         display: flex;
+        flex-wrap: wrap;
+        position: relative;
+         color: white;
+         left: 33vw;
+         top: 1vh;
+         }
+         #box1 {
+         box-sizing: border-box;
+         height: 2.5vh;
+         display: flex;
+         flex-wrap: wrap;
+         position: relative;
+         left: 24vw;
+         top: 4vh;
+         width: 11vw;
+         border: 1px solid black;
+         }
+         .password{
+            font-size: 2vh;
+         font-family: 'Yuji ,Boku', serif;
+         display: flex;
+        flex-wrap: wrap;
+        position: relative;
+         color: white;
+         left: 30vw;
+         top: 1vh;
+         }
+         #box2{
+            box-sizing: border-box;
+         height: 2.5vh;
+         display: flex;
+         flex-wrap: wrap;
+         position: relative;
+         left: 24vw;
+         top: 4vh;
+         width: 11vw;
+         border: 1px solid black;
+         }
+         #log {
+    top: 4vh;
+    color: white;
+    background-color: #3b5998;
+    position: relative;
+    height: 2.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    left: 27vw;
+    border: 1px solid black;
+    width: 3vw;
+    justify-content: center;
+    font-size: 1.5vh;
+    width: 5vw;
+    align-content: center;
+    
+}
+#img2{display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 45vh;
+    width: 55vw;
+    left: 27vw;
+}
+#img3{
+    
+    display: flex;
+    left: 13vw;
+    bottom: 42vh;
+    height: 18vh;
+    width: 9vw;
+    border-radius: 11vw;
+    position: relative;
+    border: 3px solid white;
+    flex: inherit;
+
+}
+.list{
+    display: inline-block;
+    position: relative;
+    line-height: 3vh;
+    bottom: 41vh;
+    left: 12vw;
+}
+li{
+    font-size: 2.2vh;
+    list-style: none;
+   
+}
+#id{
+    box-sizing: border-box;
+    font-size: 4vh;
+    line-height: 0vh;
+}
+.box4 {
+    box-sizing: border-box;
+    display: flex;
+    left: 27vw;
+    background-color: white;
+    position: relative;
+    flex-direction: row;
+    color: blue;
+    height: 5vh;
+
+}
+#like {
+    box-sizing: border-box;
+    width: 8vw;
+    left: 2vw;
+    justify-content: center;
+    background-color: #dccfcfe6;
+    border: 1px solid black;
+    color: #193a37;
+    font-size: 1.5vh;
+    height: 3vh;
+    top: 1vh;
+    position: relative;
+}
+  #love{
+      box-sizing: border-box;
+    width: 3vw;
+    left: 2vw;
+    justify-content: center;
+    background-color: #dccfcfe6;
+    border: 1px solid black;
+    color: #193a37;
+    font-size: 2vh;
+    height: 3vh;
+    top: 1vh;
+    position: relative;
+  }  
+  #HATE{
+      box-sizing: border-box;
+    width: 8vw;
+    left: 10vw;
+    justify-content: center;
+    background-color: #7e8699;
+    border: 1px solid black;
+    color: white;
+    font-size: 1.5vh;
+    height: 3vh;
+    top: 1vh;
+    position: relative;
+  }
+#likee{
+    box-sizing: border-box;
+    width: 8vw;
+    left: 10vw;
+    justify-content: center;
+    background-color: #dccfcfe6;
+    border: 1px solid black;
+    color: #193a37;
+    font-size: 1.5vh;
+    height: 3vh;
+    top: 1vh;
+    position: relative;
+}
+.mic{
+    position: fixed;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  #logo { display: flex;
+     flex-wrap: wrap;
+    left: 31vw;
+    position: relative;
+    top: 10vh;
+    z-index: 1;
+    width: 41vw;
+    height: 19vh;
+}
+  .email {display: flex;
+     flex-wrap: wrap;
+    left: -9vw;
+    top: 32vh;
+    position: relative;
+    color: white;
+    font-size: 19px;
+}
+  #img2{
+      
+    visibility: hidden;
+  }
+  .mic{
+      visibility: hidden;
+  }
+  .box4{display: flex;
+     flex-wrap: wrap;
+      visibility: hidden;
+  }
+  body{ display: flex;
+     flex-wrap: wrap;
+      background-color: #3b5998;
+  }
+  .con{
+      width: 100vw;
+      height: 10vh;
+  }
+  #box1 {
+    left: 31vw;
+    position: relative;
+    top: 20vh;
+    width: 37vw;
+}
+.password {
+    display: flex;
+    flex-wrap: wrap;
+    left: 2vw;
+    top: 25vh;
+    position: relative;
+    z-index: 1;
+    font-size: 19px;
+}
+
+#box2 {
+    display: flex;
+    flex-wrap: wrap;
+    top: 31vh;
+    position: relative;
+    width: 37vw;
+    left: -29vw;
+}
+#log { text-align: start;
+    z-index: 8;
+    top: 48vh;
+    position: relative;
+    left: -25vh;
+    height: 6vh;
+    width: 9vw;
+    display: grid;
+}
+}
+       
+ 
+
+   
+    </style>
+</head>
+<body>
+   <header>
+       <nav>
+           <div class="con">
+               <img src="data:image/png;base64,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" id="logo" alt="">
+               <div class="email">
+                   Email or
+                   phone
+                  
+                 
+               </div>
+               <br>
+               <input type="name" name="select" id="box1">
+               <div class="password">
+           Password
+               
+              
+            </div>
+            <br>
+            <input type="name" name="select" id="box2">
+              <button type="submit" id="log"> <b> Log in</b></button> 
+
+           </div>
+       </nav>
+   </header>
+    <main>
+         <img id="img2" src="https://scontent.fbek1-2.fna.fbcdn.net/v/t1.6435-9/169310157_4405303199497890_3733627344186358221_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=6e5ad9&_nc_ohc=HFzPHWF2-CsAX81P7fc&_nc_ht=scontent.fbek1-2.fna&oh=6901532da4070e9db1426be371ce32e1&oe=61BF25F5" alt="img">
+         <div class="box4">
+             <button id="like" > &#10084; <b> Like</b>	</button>
+             <button id="like" >&#10149; <b> Share</b>	</button>
+             <button id="like" > &#9998;<b> Suggests Edit</b>	</button>
+             <button id="love" > <b>...</b>	</button>
+             <button id="HATE" > <b>Learn more</b>	</button>
+             <button id="likee" > &#9993;<b>Send message</b>	</button>
+         </div>
+       
+    <div class="mic">
+        <img id="img3" src="https://scontent.fbek1-1.fna.fbcdn.net/v/t1.6435-9/33073624_2116114848416748_4065661504622428160_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=wpxTSDEp6WgAX8ONIeP&_nc_ht=scontent.fbek1-1.fna&oh=57499ac57612c134abcff0c6195e716a&oe=61BEAFB1" alt="">
+        <div class="list">
+     <ul> <caption id="int"> <b> Interface </b> <br> <small style="color: darkgray;">@interface</small>
+    </caption>
+         <li>Home</li>
+         <li>About</li>
+         <li>Post</li>
+         <li>Photos</li>
+         <li>Videos</li>
+         <li>Live</li>
+         <li>Interface on instagram</li>
+         <li>Events</li>
+         <li>Store</li>
+         <li>Community</li>
+     </ul>
+    </div>
+ </div>
+
+    </main>
+</body>
+</html>
